@@ -20,5 +20,7 @@ calc_plot(np.linspace(0,2*np.pi,100),40)
 calc_plot(np.linspace(0,2*np.pi,100),-70)
 calc_plot(np.linspace(0,2*np.pi,100),80)
 plt.legend()
+plt.xlabel("orbital position in radians")
+plt.ylabel("fraction of day in sunlight")
 
 plt.show()
